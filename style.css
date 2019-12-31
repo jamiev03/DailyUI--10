@@ -1,0 +1,30 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(214,214,214,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(214,214,214,1)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(214,214,214,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(214,214,214,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(214,214,214,1) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(214,214,214,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6d6d6', GradientType=1 );
+}
+
+body {
+    box-sizing: border-box;
+}
+.container {
+    margin: 50px auto;
+    width: 360px;
+    height: 740px;
+    border-radius: 30px;
+    background: #fffefe;
+    -webkit-box-shadow: 3px 6px 16px -4px rgba(0,0,0,0.63);
+    -moz-box-shadow: 3px 6px 16px -4px rgba(0,0,0,0.63);
+    box-shadow: 3px 6px 16px -4px rgba(0,0,0,0.63);
+    overflow: hidden;
+    border-top: 40px solid #1c1c1c;
+    border-bottom: 30px solid  #1c1c1c;
+    border-left: 4px solid #1c1c1c;
+    border-right: 4px solid  #1c1c1c;
+}
