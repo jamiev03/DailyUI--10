@@ -40,10 +40,62 @@ p {
     margin: 7px 35px;
     color: rgb(228, 227, 227);
 }
+.share {
+    margin: 0 35px;
+}
 .share-btn {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.btn {
-    width: 50px;
-    height: 50px;
+.btn1, .btn2, .btn3, .btn4, .btn5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background: rgb(228, 227, 227);
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn1:hover {
+    transform: scale(1.2);
+    background: #3b5998;
+    color: white;
+    transition: 0.1s;
+}
+.btn2:hover {
+    transform: scale(1.2);
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    transition: 0.1s;
+}
+.btn3:hover {
+    transform: scale(1.2);
+    background: #00aced;
+    color: white;
+    transition: 0.1s;
+}
+.btn4:hover {
+    transform: scale(1.2);
+    background: #0e76a8;
+    color: white;
+    transition: 0.1s;
+}
+.btn5:hover {
+    transform: scale(1.2);
+    background: #1c1c1c;
+    color: white;
+    transition: 0.1s;
+}
+i {
+    font-size: 30px;
+    color: rgb(161, 161, 161);
+    padding: 10px;
+    transition: 0.1s;
+}
+i:hover {
+    color: white;
 }
