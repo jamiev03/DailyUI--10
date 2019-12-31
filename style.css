@@ -40,3 +40,10 @@ p {
     margin: 7px 35px;
     color: rgb(228, 227, 227);
 }
+.share-btn {
+    display: flex;
+}
+.btn {
+    width: 50px;
+    height: 50px;
+}
