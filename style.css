@@ -28,3 +28,15 @@ body {
     border-left: 4px solid #1c1c1c;
     border-right: 4px solid  #1c1c1c;
 }
+#img {
+    margin: 40px auto;
+    width: 250px;
+    height: 250px;
+    background: rgb(228, 227, 227);
+}
+p {
+    display: inline-block;
+    background: rgb(228, 227, 227);
+    margin: 7px 35px;
+    color: rgb(228, 227, 227);
+}
